@@ -9,4 +9,4 @@ functions:
     image: faas-qrcode
 spec: 
   nodeSelector:
-    type=cloud
+    type=rasp
