@@ -7,6 +7,5 @@ functions:
     lang: csharp
     handler: ./qrcode/
     image: faas-qrcode
-spec: 
-  nodeSelector:
-    type=rasp
+    constraints:
+       - "type=rasp"
