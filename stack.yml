@@ -8,4 +8,4 @@ functions:
     handler: ./qrcode/
     image: faas-qrcode
     constraints:
-       - "type=rasp"
+       - "type=cloud"
